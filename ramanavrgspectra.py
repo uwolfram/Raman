@@ -299,7 +299,7 @@ class RamanData():
         
         # in case of self.filename[19] -> background correction lead to negative values -> shift by min[self.counts[19]]
         # self.plotFunction(self.shifts, self.counts[19], "Raman Shifts 1/cm", "Corrected Counts", "Raman Spectrum")
-        self.counts[19][0:] = [x + abs(min(self.counts[19]))/2. for x in self.counts[19][0:]]
+        #self.counts[19][0:] = [x + abs(min(self.counts[19]))/2. for x in self.counts[19][0:]]
         
     
     
