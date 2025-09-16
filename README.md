@@ -53,8 +53,10 @@ ramanavrgfits-mean.dat && ramanavrgfits-std.dat:
     lipid
         
 ## Example run
-
+```bash
 python3 ramanavrgfits.py -d Median-subtracted -n 3 -m 10 -s S18_F70L_1_AX_01.txt
+```
 OR
+```bash
 python3 ramanavrgspectra.py -d Median-subtracted -n 3 -m 10 -s S18_F70L_1_AX_01.txt
-
+```
