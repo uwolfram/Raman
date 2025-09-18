@@ -1,6 +1,3 @@
-# Hallo Karl
-Wie geht es dir
-
 # Module to evaluate Raman spectra
 ## General
 Two scripts are provided ramanavrgfits.py and ramanavrgspectra.py. Both deal with repeated measures per sample but the first averages nonlinear least square fits of portions of the spectra, while the second averages the spectra for each repeated measures and then determines the nonlinear least square fits.
